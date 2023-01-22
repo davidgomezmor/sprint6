@@ -1,8 +1,8 @@
 import { BorderText } from "../../styled";
 
-const Escena = ({ textLine, id, position }) => (
+const Escena = ({ textFragment, id, position }) => (
   <div>
-    <BorderText active={position === id ? true : false}>{textLine}</BorderText>
+    <BorderText selection={position === id ? true : false}>{textFragment}</BorderText>
   </div>
 );
 

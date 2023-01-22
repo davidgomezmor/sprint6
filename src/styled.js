@@ -11,7 +11,7 @@ text-align: center;
 height: 50px;
 border-radius: 25px;
 border-width: medium;
-background-color: ${({ active }) => active ? 'pink' : 'white'}
+background-color: ${({ selection }) => selection ? 'pink' : 'white'}
 `;
 
 export const ButtonStyle = styled.p`

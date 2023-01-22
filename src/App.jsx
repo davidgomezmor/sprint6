@@ -35,7 +35,7 @@ const App = () => {
       <Escena
         key={frase.id}
         id={frase.id}
-        textLine={frase.text}
+        textFragment={frase.text}
         position={position}
       />
     ))}
