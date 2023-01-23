@@ -40,7 +40,7 @@ const App = () => {
       />
     ))}
     <div>
-    <ButtonStyle> HELLO </ButtonStyle>
+    <ButtonStyle> WELCOME </ButtonStyle>
     </div>
   </>
 }
