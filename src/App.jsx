@@ -40,7 +40,7 @@ const App = () => {
       />
     ))}
     <div>
-    <ButtonStyle onClick={() => Hello(console.log('Hello'))}> HELLO </ButtonStyle>
+    <ButtonStyle> HELLO </ButtonStyle>
     </div>
   </>
 }
